@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Avenir Next" !important;
+}
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.logo_title {
+  color:#E96F00;
+  font-size: 26px;
+  text-transform: uppercase;
+  float:left;
+  
+  width:70%;
+  
+  padding-left: 40px;
+}
+
+.main-menu-nav {
+  font-size:20px;
+  
+  padding-left: 40px;
+  
+}
+
+.main-menu-nav ul li {
+  display: inline-block;
+  padding: 20px 20px;
+  
+  
+}
+
+.main-menu_title a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-menu_title a:hover{
+  text-decoration: none;
+  color: #E96F00;
+}
+
+.header_top {
+  width:100%;
+}
+
+
+.heading_img {
+  max-width:100vw;
+}
+
+.about_qualities{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_qualities li {
+  list-style: none;
+  display: inline-block;
+  
+  padding: 50px;
+}
+
+.about_icon{
+  max-width:200px;
+  width: 100%;
+  opacity: 0.6;
+  
+}
+
+.about_qualities h3{
+  text-transform: uppercase;
+  color: #545454;
+}
+
+.about_text {
+  max-width:500px;
+  margin: 0 auto;
+  text-align: center;
+  
+  font-size: 22px;
+  font-style: italic;
+  line-height: 36px;
+}
+
+.brands_header{
+  background-image: url(images/header_brands.jpg);
+  background-size: cover;
+  
+  max-width: 100vw;
+  height: auto;
+  
+  padding: 100px 0px;
+}
+
+.brands_header h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  
+  font-size: 36px;
+}
+
+.brands_title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-brand  {
+  
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+}
+
+.logo-brand img,
+.logo-brand h1{
+  max-width: 100px;
+  width: 100%;
+}
+
+.other_title {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+
+.other_wrapper h3{
+  font-size: 36px;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+.other_img img{
+  padding:20px;
+  max-width: 500px;
+  width: 100%;
+  
+}
+
+.other_img {
+  text-align: center;
+  font-size: 24px;
+  
+  position: relative;
+  
+}
+.other_img h4 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #545454;
+  font-weight: 300;
+}
+
+
+.footer {
+  max-width: 100vw;
+  background:#E96F00;
+  padding: 80px;
+ 
+}
+
+.footer_title {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer_text {
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
